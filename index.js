@@ -82,7 +82,7 @@ async function writeToExcel(data, name) {
 
     worksheet.addRow(columnHeaders);
     data?.forEach(res => {
-        worksheet.addRow([res.id, res.name, res.product.id,  res.partner.id, res.partner.name, `https://alifshop.uz/uz/partners/${res.partner.slug}?partner=${res.partner.slug}`, res.price, res.quantity, res.review_count, `https://alifshop.uz/ru/offer/${res.slug}`]);
+        worksheet.addRow([res.id, res.name, res.product.id,  res.partner.id, res.partner.name, `https://alifshop.uz/uz/partners/${res.partner.slug}?partner=${res.partner.slug}`, (res.price)/100, res.quantity, res.review_count, `https://alifshop.uz/ru/offer/${res.slug}`]);
     });
 
 
