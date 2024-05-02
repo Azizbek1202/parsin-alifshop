@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+input{
+  padding: 5px 30px;
+  height: 40px;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  border: 5px solid rgb(189, 185, 185);
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+button{
+  margin-top: 10px;
+  background-color: rgb(72, 35, 158);
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid wheat;
+  border-radius: 12px;
+  padding: 5px 30px;
+  color: azure;
+}
